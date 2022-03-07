@@ -1,0 +1,110 @@
+@font-face {
+    font-family: not;
+    src: url(../CormorantGaramond-Light.ttf);
+}
+
+body {
+    background-color: white;
+}
+
+.button{
+    padding-left: 1.5%;
+    padding-top: .5%;
+    font-size: 2vw;
+    font-weight: lighter;
+}
+
+
+.dropbtn {
+    color: black;
+    margin-top: .5%;
+    margin-left: 1.5%;
+    font-size: 5vw;
+    font-family: 'Courier New', Courier, monospace;
+    border: none;
+    cursor: pointer;
+    background-color: white;
+  }
+  
+  .dropdown {
+    position: relative;
+    display: inline-block;
+    height: 2%;
+    padding-left: 1.5%;
+    padding-top: -3%;
+    padding-bottom: -3%;
+   
+  }
+  
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: transparent;
+    min-width: 160px;
+    overflow: auto;
+    font-family: not;
+    z-index: 1;
+  }
+  
+  .dropdown-content a {
+    color: black;
+    font-size: 2vw;
+    padding: 12px 2 16px;
+    text-decoration: none;
+    display: block;
+  }
+  
+  .dropdown a:hover {background-color: #ddd;}
+  
+  .show {display: block;}
+
+.title {
+    font-family: not ;
+    font-size: 2.5vw;
+    text-align: center;
+    font-weight: lighter;
+    color: maroon;
+    
+}
+
+.header {
+  font-family: not;
+  font-weight: lighter;
+  font-size: 1.2vw;
+  font-weight: lighter;
+  opacity: 0.3;
+  width: 100%;
+  text-align: center;
+  vertical-align: middle;
+  top: 0;
+}
+  
+  .a {
+    text-decoration: none;
+  }
+
+  .row {
+    display: flex;
+    padding-top: 3%;
+    padding-bottom: 10%;
+  }
+  
+  /* Create three equal columns that sits next to each other */
+  .column {
+    /* flex: 25%; */
+    padding: 5px;
+    width: 25%;
+   
+    }
+
+    .text {
+        width: 50%;
+        text-align: center;
+        margin-left: 25%;
+        font-size: 1vw;
+        font-family: Arial, Helvetica, sans-serif;
+        font-weight: 10;
+        padding-top: 2%;
+    }
+
+

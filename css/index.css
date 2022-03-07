@@ -1,0 +1,36 @@
+@font-face {
+  font-family: not;
+  src: url(../CormorantGaramond-Light.ttf);
+}
+
+body {
+    background-image: url(../images/landscape-2\ copy.jpeg);
+    background-color: transparent, 50%;
+    height: 100vh;
+    margin: 0;
+    background-position: fill;
+    background-size: contain;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.button {
+  text-align: center;
+  padding-top: 13%;
+
+}
+.home {
+  text-decoration: none;
+  color: black;
+  
+}
+
+.cathy {
+    text-decoration: none;
+    font-size: 12vw;
+    color: maroon;
+    font-family: not;
+    font-weight: lighter;
+    text-align: center;
+
+}

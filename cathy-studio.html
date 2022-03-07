@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+
+ <head>
+
+ <title>CATHY.D</title>
+
+ <link rel="stylesheet" href="./css/cathy-studio.css">
+
+ <link rel="shortcut icon" href="">
+ 
+</head>
+
+
+ <body>
+
+    
+    <div class="button">
+      <div class="dropdown">
+       <button onclick="myFunction()" class="dropbtn">=</button>
+       <div id="myDropdown" class="dropdown-content">
+         <a href="./cathy-dorman-about.html">About</a>
+         <a href="./cathy-dorman-cv.html">CV</a>
+        </div>
+      </div> 
+    </div>
+
+
+      <div class="title">
+          <h1>Cathy Dorman</h1>
+      </div>
+
+    <div class="header">
+        <h1>Studio</h1>
+    </div>
+
+  
+    <div class="row">
+        <div class="column">
+          <a href="./Casa-de-v.html"><img src="./images/casa-1.jpeg" alt="casa-de-v" style="width:100%"></a>
+          <div class="text"> <p>Casa de Vidro</p></div>
+        </div>
+        <div class="column">
+          <a href="./f-house.html"><img src="./images/f-house-3.jpg" alt="farnsworth" style="width:100%"></a>
+          <div class="text"> <p>Farnsworth House</p></div>
+        </div>
+        <div class="column">
+          <a href="./landscapes.html"><img src="./images/landscape-2.jpeg" alt="landscape" style="width:100%"></a>
+          <div class="text"> <p>Landscapes</p></div>
+        </div>
+        <div class="column">
+          <a href="./photography.html"><img src="./images/Photography-4.jpg" alt="photography" style="width:100%"></a>
+          <div class="text"> <p>Photography</p></div>
+        </div>
+    </div>
+ 
+
+
+
+
+    
+    <script>
+      /* When the user clicks on the button, 
+      toggle between hiding and showing the dropdown content */
+      function myFunction() {
+        document.getElementById("myDropdown").classList.toggle("show");
+      }
+      
+      // Close the dropdown if the user clicks outside of it
+      window.onclick = function(event) {
+        if (!event.target.matches('.dropbtn')) {
+          var dropdowns = document.getElementsByClassName("dropdown-content");
+          var i;
+          for (i = 0; i < dropdowns.length; i++) {
+            var openDropdown = dropdowns[i];
+            if (openDropdown.classList.contains('show')) {
+              openDropdown.classList.remove('show');
+            }
+          }
+        }
+      }
+      </script>
+
+ </body>
+ 
+</html>

@@ -1,0 +1,83 @@
+@font-face {
+    font-family: not;
+    src: url(../CormorantGaramond-Light.ttf);
+}
+
+body {
+    background-color: white;
+}
+
+.button{
+    padding-left: 3.5%;
+    padding-top: 1%;
+  
+}
+
+.home {
+    width: 2%;
+}
+
+.ig-logo-1 {
+    width: 2%;
+    padding-left: 90%;
+    padding-top: 1%;
+}
+
+.title {
+    font-family: not ;
+    font-size: 2.5vw;
+    text-align: center;
+    font-weight: lighter;
+    color: maroon;
+    
+}
+
+.header {
+    font-family: not;
+    font-weight: lighter;
+    font-size: 1.2vw;
+    font-weight: lighter;
+    opacity: 0.3;
+    width: 100%;
+    text-align: center;
+    vertical-align: middle;
+    top: 0;
+}
+
+.heading1 {
+    padding-bottom: 3%;
+    font-family: not;
+}
+
+.cv {
+    padding-left: 10%;
+    padding-right: 10%;
+    padding-bottom: 10%;
+    text-align: left;
+}
+
+.heading {
+    padding-left: 5%;
+    font-family: not;
+    font-size: 1.5vw;
+
+}
+
+.body{
+    padding-left: 10%;
+    padding-bottom: 5%;
+    font-size: 1vw;
+    font-family:  Helvetica, sans-serif;
+    font-weight: lighter;
+
+}
+
+.contact {
+   text-align: center;
+    font-size: .9vw;
+    padding-bottom: 5%;
+    font-family: not;
+}
+.ig-logo {
+    width: 3%;
+}
