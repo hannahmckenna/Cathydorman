@@ -2,7 +2,11 @@
     font-family: not;
     src: url(../CormorantGaramond-Light.ttf);
 }
-
+@font-face {
+    font-family: work;
+    src: url(../WorkSans-VariableFont_wght.ttf);
+  }
+  
 body {
     background-color: white;
 }
@@ -28,7 +32,7 @@ body {
     font-size: 2.5vw;
     text-align: center;
     font-weight: lighter;
-    color: maroon;
+    color: sienna;
     
 }
 
@@ -67,7 +71,7 @@ body {
     padding-left: 10%;
     padding-bottom: 5%;
     font-size: 1vw;
-    font-family:  Helvetica, sans-serif;
+    font-family:  work;
     font-weight: lighter;
 
 }
@@ -81,3 +85,72 @@ body {
 .ig-logo {
     width: 3%;
 }
+
+@media screen and (max-width: 800px) {  
+    .home {
+      width: 5%;
+      padding: 4.5% 0% 0% 0%;
+    }
+    }
+
+@media screen and (max-width: 800px) {
+    .title {
+      font-family: not ;
+      width: 100%;
+      font-size: 4vw;
+      text-align: center;
+      font-weight: lighter;
+      color: sienna;
+    }  
+  }
+  
+  @media screen and (max-width: 800px) {
+    .header {
+      font-family: not;
+      font-weight: lighter;
+      font-size: 3vw;
+      font-weight: lighter;
+      opacity: 0.3;
+      width: 100%;
+      text-align: center;
+      vertical-align: middle;
+      top: 0;
+    } 
+  }
+
+
+  @media screen and (max-width: 800px) {
+    .heading1 {
+        padding-bottom: 3%;
+        font-family: not;
+        font-size: 2.5vw;
+    }
+  }
+
+  @media screen and (max-width: 800px) {
+    .body{
+        padding-left: 10%;
+        padding-bottom: 5%;
+        font-size: 2vw;
+        font-family:  Helvetica, sans-serif;
+        font-weight: lighter;
+    }
+    
+  }
+
+  @media screen and (max-width: 800px) {
+    .heading {
+        padding-left: 5%;
+        font-family: not;
+        font-size: 2.3vw;
+    }
+  }
+
+
+@media screen and (max-width: 800px) {
+  .ig-logo-1 {
+    width: 3.5%;
+    padding-left: 86%;
+    
+    } 
+  }
